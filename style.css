@@ -38,7 +38,9 @@ a:hover {
     background-size: cover;
     position: relative;
 }
-
+.comment{
+    font-size: inherit;
+}
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -677,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
