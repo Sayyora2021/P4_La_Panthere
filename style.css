@@ -28,7 +28,7 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+   
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -777,7 +777,9 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    /*color: #F3976C!important;*/
+    color: white!important;
+    text-shadow: #000000 5px 10px 5px 10px;
 }
 
 .btn-atomic-tangerine {
