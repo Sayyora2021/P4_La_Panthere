@@ -3672,7 +3672,8 @@ textarea.input-lg {
     user-select: none;
     background-image: none;
     border: 1px solid transparent;
-    border-radius: 4px
+    border-radius: 4px;
+    width:300px;
 }
 
 .btn.active.focus,
@@ -7510,7 +7511,10 @@ button.close {
 .carousel-inner>.item>img {
     line-height: 1
 }
-
+.adresse{
+    display: flex;
+    flex-direction: column;
+}
 @media all and (transform-3d),
 (-webkit-transform-3d) {
     .carousel-inner>.item {
