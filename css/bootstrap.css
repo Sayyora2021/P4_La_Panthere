@@ -36,9 +36,15 @@ h1 {
 
 
 img {
-    border: 0
+    border: 0;
+    height: 250px;
+    width: 250px;
 }
 
+.navbar-brand img{
+    height: 50px;
+   width: 300px;
+}
 
 button,
 input,
@@ -105,7 +111,13 @@ input[type=search]::-webkit-search-cancel-button,
 input[type=search]::-webkit-search-decoration {
     -webkit-appearance: none
 }
-
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100px;
+    width: 100px;
+}
 
 .navbar-collapse {
     padding-right: 15px;
@@ -305,6 +317,13 @@ html {
     font-size: 10px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    font-display: swap;
+    src: url(../fonts/glyphicons-halflings-regular.eot);
+    src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+    
+}
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -348,12 +367,8 @@ img {
 .img-responsive {
     display: block;
     max-width: 100%;
-    height: 250px;
-    width: 250px;
+    
 }
-
-
-
 
 .h1,
 .h2,
