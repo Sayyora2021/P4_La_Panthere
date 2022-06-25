@@ -310,7 +310,7 @@ a:hover {
     
 }
 
-.navbar-brand img[src$=svg] {
+.navbar-brand img {
     min-width: 100px;
 }
 
