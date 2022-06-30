@@ -796,7 +796,7 @@ text-shadow: #000000 5px 10px 5px 10px;
 }
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
