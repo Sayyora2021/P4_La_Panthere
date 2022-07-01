@@ -15,11 +15,11 @@
 		<link rel="stylesheet" href="style.css" disabled />
 	
     
-		<script type="application/javascript" src="./js/jquery-2.1.0.js"></script>
-		<script type="application/javascript" src="./js/bootstrap.js"></script>
-	<script type="application/javascript" src="./js/blocs.js"></script>
-	<script type="application/javascript" src="./js/jqBootstrapValidation.js"></script>
-	<script type="application/javascript" src="./js/formHandler.js"></script>
+		<script src="./js/jquery-2.1.0.js"></script>
+		<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jqBootstrapValidation.js"></script>
+	<script src="./js/formHandler.js"></script>
     <title>Contact</title>
 
     
@@ -84,30 +84,30 @@
 	<div class="container bloc-lg">
 		<div class="adresse">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate formsuccess-msg="Your message has been sent." formfail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group ">
-				
+					</div>
 						<label>
 							Nom
-						<input type="name" class="form-control" required />
+						<input type="text" class="form-control" required />
 					</label>	
 					<div class="form-group ">
 						<label>
 							Adresse email
-							<input type="email" class="form-control" type="email" required />
+							<input type="email" class="form-control" required />
 						</label>
 					</div>
 					<div class="form-group ">
 						<label>
 							Comment nous avez-vous connu ?
-							<input id="form-control" type="email" required id="input_504" />
+							<input id="form-control" type="email" required="input_504" />
 						</label>
 					</div>
 				
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-							<textarea type="message" class="form-control" rows="4" cols="50" required></textarea>
+							<textarea name="message" class="form-control" rows="4" cols="50" required></textarea>
 						</label>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
