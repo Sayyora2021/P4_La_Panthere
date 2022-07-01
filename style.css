@@ -33,6 +33,7 @@ a:hover {
 }
 .comment{
     font-size: inherit;
+    color:black;
 }
 .bloc .container {
     padding-left: 0;
