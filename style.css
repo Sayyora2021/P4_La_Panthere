@@ -298,13 +298,6 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
-    display: inline;
-    
-}
-
-.navbar-brand img {
     min-width: 100px;
     width:300px;
     height:50px;
@@ -517,7 +510,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
